@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'duck_punching'
+
+dp = DuckPunching.new
+10.times do
+  puts dp.call
+end
